@@ -1,6 +1,32 @@
 # Product-Portal
 
-## Installation
+## Project Details
+
+### How do we complete this project?
+
+#### Ver 0.1 :
+  - **General concept:** Create a static website using array of objects (30 items - will be made by xx and yy) (each json item: title,price,link,catgeory…)
+    - navbar will include 6~ categories (which will be connected with the json file to right product category)
+    - Search bar input above / beside the navbar (see mockup)
+    - Home/index page will display random 16 items each time with (back - next page at the bottom)
+    - Each li product will display item title > picture > price > button (one below the other in this order)
+
+#### Ver 0.2 (will be updated shortly)
+  - **General concept:** Change the json objects into a dynamic api (amazon). 
+    - Change the links into the amazon affiliate ones 
+
+#### Ver 1.0 (will be updated soon)
+  - **General concept:**
+    - Ability to create users/login
+    - Add to basket option
+    - payment checkout
+
+
+#### Mockup:
+![Mockup](http://i.imgur.com/f2dKWIv.png "Product Portal Mockup")
+
+
+# Installation
 
 This project will mostly be done in plain JavaScript. However, we'll need some help along the way. Writing tests is already hard enough, let's not try to write them without frameworks. For writing unit tests, we'll use Karma and Jasmine.
 
@@ -47,18 +73,4 @@ npm test
 
 This activates a script that is set in the package.json file to run Karma and load your JavaScript test files.
 
-## Project Details
 
-### How do we complete this project?
-
-#### JS:
-* Create a demo products in json (later on with  an api) each with name,picture,price,etc. (div>ul> li for each item-product)
-* Add a button to each list item (For affilation link / add to basket purposes)
-* Create a list of products 4 in each row, 5 rows
-* Add back - next button to toggle between pages
-
-#### HTML:
-* Create navbar for diff catgoeries
-
-#### Example:
-![Mockup](http://i.imgur.com/NdUM5qd.png "Product Portal Mockup")
