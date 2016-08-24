@@ -3,3 +3,5 @@ function displayMessage() {
 }
 
 console.log(displayMessage());
+
+console.log(products);
