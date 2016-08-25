@@ -1,3 +1,16 @@
 body {
   background-color: #f0f0f0;
 }
+
+.products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+}
+
+.product {
+  background-color: orange;
+}
