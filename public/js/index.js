@@ -1,3 +1,16 @@
+document.body.appendChild(buildProducts(products));
+
+function buildProducts(products) {
+  var div = document.createElement("div");
+  div.className = "products";
+
+  for (var i = 0; i < products.length; i++) {
+    div.appendChild(buildProduct(products[i]));
+  }
+
+  return div;
+}
+
 function buildProduct(product) {
   var div = document.createElement("div");
   div.className = "product";
@@ -16,16 +29,3 @@ function buildProduct(product) {
 
   return div;
 }
-
-function buildProducts(products) {
-  var div = document.createElement("div");
-  div.className = "products";
-
-  for (var i = 0; i < products.length; i++) {
-    div.appendChild(buildProduct(products[i]));
-  }
-
-  return div;
-}
-
-document.body.appendChild(buildProducts(products));
