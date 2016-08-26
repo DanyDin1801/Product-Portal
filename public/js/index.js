@@ -28,5 +28,4 @@ function buildProducts(products) {
   return div;
 }
 
-var app = document.getElementById("app");
-app.appendChild(buildProducts(products));
+document.body.appendChild(buildProducts(products));
