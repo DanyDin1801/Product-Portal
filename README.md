@@ -5,11 +5,12 @@
 ### How do we complete this project?
 
 #### Ver 0.1 :
-  - **General concept:** Create a static website using array of objects (30 items - will be made by xx and yy) (each json item: title,price,link,catgeory…)
-    - navbar will include 6~ categories (which will be connected with the json file to right product category)
+  - **General concept:** Create a static website using JSON fetch method (30 items - will be made by xx and yy) (each json item: title,price,link,catgeory…)
+    - Random 16 items on the home page - back / next page at the bottom (Each page will display random 16 items each time with)
+    - navbar will include 6~ categories (products will appear in the corresponding category)
     - Search bar input above / beside the navbar (see mockup)
-    - Home/index page will display random 16 items each time with (back - next page at the bottom)
     - Each li product will display item title > picture > price > button (one below the other in this order)
+    - Click on a product will show a popup baloon with the products details in a bigger version on the screen (mockup coming soon)
 
 #### Ver 0.2 (will be updated shortly)
   - **General concept:** Change the json objects into a dynamic api (amazon). 
