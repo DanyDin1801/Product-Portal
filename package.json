@@ -4,7 +4,7 @@
   "description": "A simple webshop",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node server/server.js",
     "test": "karma start karma.conf.js"
   },
   "repository": {
