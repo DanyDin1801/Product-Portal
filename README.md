@@ -47,6 +47,16 @@ npm test
 
 This activates a script that is set in the package.json file to run Karma and load your JavaScript test files.
 
+## Code Styling
+
+For styling, we will use the JavaScript style guide that was provided by Airbnb.
+
+Checking code style can be done with
+
+```
+npm run lint
+```
+
 ## Project Details
 
 ### How do we complete this project?
