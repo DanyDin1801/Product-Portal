@@ -57,6 +57,8 @@ Checking code style can be done with
 npm run lint
 ```
 
+* A additional(and normal) `ELIFECYCLE` error will be displayed by npm when the linter encounter syntax errors.
+
 ## Project Details
 
 ### How do we complete this project?
