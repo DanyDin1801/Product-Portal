@@ -23,12 +23,17 @@ This command will install all the dependencies listed in package.json.
 To run local server, run
 
 ```
-node server.js
+node server/server.js
 ```
 or
 ```
 npm start
 ```
+or
+```
+npm run start-dev
+```
+`npm run start-dev` uses [nodemon](https://github.com/remy/nodemon) to watch `server` folder for any file changes and restart node server automatically.
 
 The default server is `http://localhost:3000`.
 
