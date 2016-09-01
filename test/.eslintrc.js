@@ -5,5 +5,8 @@ module.exports = {
   ],
   "env": {
     "jasmine": true
+  },
+  "rules": {
+    "no-undef": "off"
   }
 };
