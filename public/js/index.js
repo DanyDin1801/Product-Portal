@@ -1,2 +1,3 @@
-document.body.appendChild(buildProducts(products));
+var app = document.getElementById("app");
+app.appendChild(buildProducts(products));
 
