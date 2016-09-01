@@ -1,5 +1,3 @@
-function displayMessage() {
-  return 'Hello, World!';
-}
+var app = document.getElementById("app");
+app.appendChild(buildProducts(products));
 
-console.log(displayMessage());
